@@ -53,7 +53,7 @@ body {
 /* Hero Section */
 .hero-section {
     text-align: center;
-    background: linear-gradient(135deg, #2F3C7E,#1b1f36);
+    background: linear-gradient(135deg, #2f3c7e,#40445a);
     color: white;
     padding: 80px 40px;
     margin-top: 70px;
@@ -734,7 +734,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #111c53;
+    background: linear-gradient(90deg, #15191d, #12325a);
     padding: 20px 0;
     color: white;
 }
