@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #121212;
     color: #fff;
+    padding-top: 100px;
 }
 
 /* Navbar */
@@ -12,10 +13,12 @@ body {
     background-color: #f4ecec;
     border-bottom: 4px solid #030303;
     padding: 15px 0;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
     z-index: 1000;
 }
+
 
 .navbar .container {
     display: flex;
@@ -50,9 +53,10 @@ body {
 /* Hero Section */
 .hero-section {
     text-align: center;
-    background: linear-gradient(135deg, #2F3C7E,#2F3C7E);
+    background: linear-gradient(135deg, #2F3C7E,#1b1f36);
     color: white;
-    padding: 80px 20px;
+    padding: 80px 40px;
+    margin-top: 70px;
 }
 
 .hero-section h1 {
@@ -186,8 +190,10 @@ footer .social-icons a:hover {
 }
 
 .about-header {
+    margin-top: 80px;
     text-align: center;
     margin-bottom: 40px;
+    
 }
 
 .about-header h1 {
@@ -201,6 +207,7 @@ footer .social-icons a:hover {
 }
 
 .about-content {
+    
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -361,6 +368,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     color: white;
+    margin-top: 80px;
 }
 
 .skills .section-title {
@@ -505,28 +513,9 @@ body {
     margin: auto;
 }
 
-/* Navbar */
-.navbar {
-    background-color: #3c1a8a;
-    padding: 15px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.nav-links a:hover {
-    color: #ffcbcb;
-}
-
 /* Experience Section */
 .experience {
+    margin-top: 80px;
     padding: 60px 0;
     background-color: #2b3446;
     text-align: center;
@@ -616,46 +605,14 @@ footer a {
     text-decoration: none;
 }
 
-/* General Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-/* Navbar */
-.navbar {
-    background-color: #3c1a8a;
-    padding: 15px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.nav-links a:hover {
-    color: #ffcbcb;
-}
 
 /* Projects Section */
 .projects {
     padding: 60px 0;
     background-color:  #2b3446;
     text-align: center;
+    margin-top: 80px;
 }
 
 .projects .section-title {
@@ -777,7 +734,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #2F3C7E;
+    background-color: #111c53;
     padding: 20px 0;
     color: white;
 }
@@ -807,6 +764,7 @@ body {
     background-color:  #3a4864;
     padding: 60px 0;
     text-align: center;
+      margin-top: 80px;
 }
 
 .achievements .section-title {
